@@ -3,14 +3,18 @@
     padding: 0;
 }
 
+:root{
+    --fs: 1.5rem;
+}
+
 body{
     display: flex;
     flex-basis: 70%;
 }
 
 .left-panel{
-    width: 30%;
-    max-width: 300px;
+    width: 25%;
+    max-width: 270px;
     height: 98vh;
     background: cornsilk;
 }
@@ -37,4 +41,8 @@ body{
 
 .content{
     padding: 40px;
+}
+
+.p__content{
+    font-size: var(--fs);   
 }
