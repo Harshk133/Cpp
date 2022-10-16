@@ -1,27 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Roboto:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 
 :root{
+    --primary-bg-color: cornsilk;
+    --primary-color: #649ad2;
     --fs: 1.5rem;
+    --ff: font-family: 'Baloo Bhai 2', cursive;
 }
 
 body{
     display: flex;
     flex-basis: 70%;
+    padding: 0 80px;
+}
+
+h2{
+    font-size: 2rem;
 }
 
 .left-panel{
     width: 25%;
     max-width: 270px;
     height: 98vh;
-    background: cornsilk;
+    background: var(--primary-bg-color);
 }
 
 .leaf{
     text-transform: capitalize;
-    background: green;
+    background: var(--primary-color);
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     margin: 10px 0;
@@ -36,6 +46,7 @@ body{
 .right-panel{
     width: 78%;
     height: 98vh;
+    overflow-y: scroll;
     /* background-color: red; */
 }
 
@@ -45,4 +56,8 @@ body{
 
 .p__content{
     font-size: var(--fs);   
+    font-family: 'Baloo Bhai 2', cursive;
+    line-height: 25px;
 }
+
+

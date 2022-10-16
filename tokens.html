@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Harsh Kale">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./Img/cpplogo.png" type="image/x-icon">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/buttons.css">
+    <link rel="stylesheet" href="Css/tables.css">
+    <link rel="stylesheet" href="Css/tokens.css">
+
+    <!-- Fonts -->
+    <!-- *<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&display=swap" rel="stylesheet"> -->
+    <title>C++ ~ Tokens Of C/C++</title>
+</head>
+
+<body>
+    <!-- Left-Panel -->
+    <div class="left-panel">
+        <div class="leaf">
+            <h2><p class="p__content"><a href="index.html">Introduction</a></p></h2>
+        </div>
+        <div class="leaf">
+            <h2><p class="p__content"><a href="tokens.html">Tokens of C++</a></p></h2>
+        </div>        
+    </div>
+
+    <!-- Right-Panel -->
+    <div class="right-panel">
+        <div class="content">
+            <!-- <div class="img">
+                <img src="Img/cpplogo.png" alt="Image of the C++ Logo!">
+            </div> -->
+            <div class="drop-down">
+                <form action="#">
+                    <select name="select" id="select-box">
+                        <option value="1"><a href="#characterset">Character Set</a></option>
+                        <option value="1"><a href="#keywords">KeyWords</a></option>
+                        <option value="1">Identifies</option>
+                        <option value="1">Constants & Variables</option>
+                        <option value="1">Data types</option>
+                        <option value="1">Operators</option>
+                    </select>
+                </form>
+            </div>
+            <div class="information">
+                <article id="characterset">
+                    <h2><tt>Character Set</tt></h2>
+                    <br>
+                    <article>
+                        <p class="p__content">A Character is an alphabet, digit or special symbol. It is used to represent information. Every Language allows only certain characters to be used in a program. The collection of all such characters is also called <a href="https://en.cppreference.com/w/cpp/language/charset" target="_blank">Character set</a>. When we write a program in a language then we can use only those characters from the character set of the language.</p>
+                        <caption>C++ Character Set!</caption>
+                        <table border="1">
+                            <tr>
+                                <th>Alphabet</th>
+                                <td>A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z <br>
+                                    a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z
+                                </td>                                
+                            </tr>
+                            <tr>
+                                <th>Digits</th>
+                                <td>0, 1, 2, 3, 4, 5, 6, 7, 8, 9</td>
+                            </tr>
+                            <tr>
+                                <th>Special Symbols (all those seen on a keyboard, nothing besides that)</th>
+                                <td>~ ' ! @ # $ % ^ & * () _ - + = | \ / ? , . ` : {} [] < > " (The names used for these symbols are given in the table.)</td>
+                            </tr>
+                            <tr>
+                                <th>Other Special Characters</th>
+                                <td>Blank Space, Tab, Carriage Return (Entry Key)</td>
+                            </tr>
+                        </table>
+                        <br>
+                        <caption>Special Symbols and their names</caption>
+                        <table border="1">
+                            <tr>
+                                <th>Symbol</th>
+                                <th>Name of Symbol</th>
+                                <th>Symbol</th>
+                                <th>Name of Symbol</th>
+                            </tr>
+                            <tr>
+                                <td>,</td>
+                                <td>Comma</td>
+                                <td>&</td>
+                                <td>Ampersand</td>
+                            </tr>
+                            <tr>
+                                <td>.</td>
+                                <td>Period or dot</td>
+                                <td>*</td>
+                                <td>Asterisk</td>
+                            </tr>
+                            <tr>
+                                <td>;</td>
+                                <td>Semicolon</td>
+                                <td>-</td>
+                                <td>Minus Sign</td>
+                            </tr>
+                            <tr>
+                                <td>:</td>
+                                <td>Colon</td>
+                                <td>+</td>
+                                <td>Plus Sign</td>
+                            </tr>
+                            <tr>
+                                <td>?</td>
+                                <td>Question Mark</td>
+                                <td>&lt;</td>
+                                <td>Opening Angle (Less than Sign)</td>
+                            </tr>
+                            <tr>
+                                <td>!</td>
+                                <td>Exclamation Mark</td>
+                                <td>&#62;</td>
+                                <td>Closing Angle (Greater than Sign)</td>
+                            </tr>
+                            <tr>
+                                <td>|</td>
+                                <td>Pipe</td>
+                                <td>(</td>
+                                <td>Left Parenthesis</td>
+                            </tr>
+                            <tr>
+                                <td>/</td>
+                                <td>Forward Slash</td>
+                                <td>)</td>
+                                <td>Right Parenthesis</td>
+                            </tr>
+                            <tr>
+                                <td>\</td>
+                                <td>Back Slash</td>
+                                <td>[</td>
+                                <td>Left Square Bracket</td>
+                            </tr>
+                            <tr>
+                                <td>'</td>
+                                <td>Single Quotes</td>
+                                <td>]</td>
+                                <td>Right Square Bracket</td>
+                            </tr>
+                            <tr>
+                                <td>"</td>
+                                <td>Double Quotes</td>
+                                <td>{</td>
+                                <td>Left Brace</td>
+                            </tr>
+                            <tr>
+                                <td>~</td>
+                                <td>Tilde</td>
+                                <td>}</td>
+                                <td>Right Brace</td>
+                            </tr>
+                            <tr>
+                                <td>_</td>
+                                <td>Underscore</td>
+                                <td>#</td>
+                                <td>Hash</td>
+                            </tr>
+                            <tr>
+                                <td>^</td>
+                                <td>Caret</td>
+                                <td>$</td>
+                                <td>Dollar</td>
+                            </tr>
+                            <tr>
+                                <td>%</td>
+                                <td>Percentage</td>
+                            </tr>
+                        </table>
+                    </article>
+                </article>
+                <br>
+                <article id="keywords">
+                    <h2><tt>KeyWords</tt></h2>
+                    <br>
+                    <article>
+                        <p class="p__content">Some Special words that have a predefined meaning for the C++ Language. Hence, these words cannot be used as Identifiers. Simply Identifier is a name given to a variable.</p>
+                        <p class="p__content">These are set of words which are reserved for the certain operations and hence are also sometimes referred as reserved words.</p>
+                        <p class="p__content">Following are Keywords present in C++:</p>
+
+                    </article>
+                </article>
+
+            </div>
+            <a href="link.html"><button class="nxt-btn">Next</button></a>
+            <a href="index.html"><button class="pre-btn">Previous</button></a>
+        </div>
+    </div>
+</body>
+
+</html>

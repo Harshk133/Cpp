@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#select-box{
+    width: 30%;
+    height: 30px;
+    font-size: 1em;
+    padding: 1px;
+}
