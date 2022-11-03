@@ -1,0 +1,15 @@
+.__margin{
+    margin-left: 40px;
+    font-size: 21px;
+}
+
+.this_is_ul{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.p__content{
+    font-size: var(--fs);   
+    font-family: 'Baloo Bhai 2', cursive;
+    line-height: 25px;
+}

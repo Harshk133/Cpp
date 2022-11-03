@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="Css/tables.css">
     <link rel="stylesheet" href="Css/tokens.css">
     <link rel="stylesheet" href="Css/contents_on_pg.css">
+    <link rel="stylesheet" href="Css/utils.css">
 
     <!-- Fonts -->
     <!-- *<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,7 +43,7 @@
             <div class="contents_on_pg">
                 <h3>Contents On this Page...</h3>
                 <!-- <br> -->
-                <ul>
+                <ul class="this_is_ul">
                     <li class="links"><a href="#character_set">Character Set</a></li>
                     <li class="links"><a href="#keywords">KeyWords</a></li>
                     <li class="links"><a href="#identifiers">Identifiers</a></li>
@@ -453,6 +454,27 @@
                 <article id="operators">
                     <h2><tt>Operators</tt></h2>
                     <p class="p__content">Operators are different special symbols used for indicating an operation to be performed.</p>
+                    <br>
+                    <p class="p__content">The Operators are one of the tokens of C/C++. There are different types of operators classified based on their functions.</p>
+                    <p class="p__content">Many of these operators although listed here, but will be understood in the further web pages as and when we use them. So you may just go through the operators and understood them later while programming.</p>
+                    <br>
+                    <p class="p__content">
+                        If an operator requires one operand, it is called as Unary Operator. If an operator requires two operands, then it is called as Binary Operator and if it requires two operands, then it is called as Binary Operator and if it requires three operands, it is called as Ternary Operator.
+                    </p>
+                    <b>Unary Operators</b>
+                    <ul class="this_is_ul">
+                        <li><b>1. Unary minus (-):</b> The Symbol shown in the bracket is used as unary minus operator. <br> It returns the negative value of the variable to which it is preceded. For example, <code>a = 5 and b = 10 then <br> b = -a;</code> <br> Will make the value of b as -10</li>
+                        <br>
+                        <li><b>2. Casting Operator(()):</b> It is many a times required to convert one datatype another. For example,<code>int x = 3; float y = 5.6; x = (int)y</code>.</li>
+                        <br>
+                        <li><b>3. Logical Not Operator (!):</b> The Symbol is exclamation mark is used as logical not operator. It is used to check certain conditions in a condition statement. It perfroms the logical not of the result obtained from the expression on its right For example, if a=1, then a=!b; Will result b having the value 0.</li>
+                        <br>
+                        <li><b>4. Address of Operator(&):</b> This Operator returns the address of the variable associated with it. For example, if we do like this a=&b; then the memory address allocated to the variable a will be copied into the variable b. For this the variable b. For this variable b must be a pointer variable.</li>
+                        <br>
+                        <li><b>5. Indirection Operator or value of operator (*):</b> This Operator returns the value of the data at the given address. For example, c=*a; will give the value of stored at the address given by a.</li>
+                        <br>
+                        <li><b>6. Scope Resolution Operator (::):</b> It resolves the scope of a variable to be inside the function or outside the function. For example, if an external variable a is to be accesssed then the same can be accessed using the scope resolution operator by the statement, b=::a;</li>
+                    </ul>
                 </article>
             </div>
             <a href="link.html"><button class="nxt-btn">Next</button></a>
